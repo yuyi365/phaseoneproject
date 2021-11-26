@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Finder</title>
+</head>
+<body>
+    <script defer src="index.js"></script>
+
+    <header id="header">
+        <h1>Discover Your Next Cocktail...</h1>
+    </header>
+    
+    <main>
+        <!--form #1: search by cocktail-->
+        <form id="search-by-cocktail">
+            <label for="search-name">Search by Cocktail Name:</label>
+            <br/>
+            <input type="text" id="cocktail-name" name="search-name" placeholder="e.g. Pisco Sour, Martini, Spritz"/>
+            <input type="submit" value="Search"/>
+        </form>
+        <br/>
+        <br/>
+        <!--form #2: search by ingredient-->
+        <form id="search-by-ingredient">
+            <label for="search-ingredient">Search by Ingredient:</label> 
+            <br/>
+            <input type="text" id="cocktail-ingredient" name="search-ingredient" placeholder="e.g. Vodka, Gin, Mint, Bitters"/>
+            <input type="submit" value="Search"/>
+        </form>
+        <br/>
+
+        <!--<h2 id="search-results">Search Results</h2>-->
+        <div id="container">
+        </div>
+
+    </main>
+</body>
+</html>
