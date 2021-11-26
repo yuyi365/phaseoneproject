@@ -11,3 +11,4 @@ Descriptive images, recipes, and ingredients
 
 ## APIs & Technologies
 
+API used: The Cocktail DB API (https://www.thecocktaildb.com/api.php)
